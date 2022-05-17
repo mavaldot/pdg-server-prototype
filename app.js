@@ -19,8 +19,6 @@ async function execute(command){
     return stdout;
 }
 
-//const text = fs.readFileSync('test.txt', 'utf-8');
-
 app.post('/code', async (req, res) => {
     let lang = req.body.language;
     let code = req.body.text;
