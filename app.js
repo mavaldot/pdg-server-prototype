@@ -38,10 +38,12 @@ app.post('/code', async (req, res) => {
             });
             output = await execute('g++ main.cpp -o output; ./output');
             console.log(output);
-            res.send({out: output})
+            break;
+        default:
+            break;
     }
 
-    //res.send({out: output});
+    res.send({out: output});
 });
 
 app.listen(PORT, () => {
