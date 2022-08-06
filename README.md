@@ -1,1 +1,3 @@
-# pdg-server-prototype
+# Instructions:
+
+npm start
