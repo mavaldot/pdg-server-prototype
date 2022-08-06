@@ -2,11 +2,11 @@
 
 npm start
 
-Sample Query:
+# Sample Query:
 
 POST
 
-localhost:12345/code
+http://localhost:12345/code
 
 {
 
